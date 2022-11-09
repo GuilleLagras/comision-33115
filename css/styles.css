@@ -14,16 +14,33 @@ header{
 
 p{
     font-size:1.5rem;
-    color: aliceblue;
+    color: rgb(0, 0, 0);
 }
 .quees{
     font-size: 5rem;
-    color: aliceblue;
+    color: rgb(0, 0, 0);
     text-align: center;
 }
 
 .jugadoresR{
     width: 30rem;
+    margin-right: 3rem;
+}
+
+.textoIndexImagen{
+    display: flex;
+    flex-direction: row;
+    padding: 2rem;
+}
+
+.separacion{
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.imagenDEinicio{
+    display: block;
+    margin: 3rem auto;
 }
 
 /*Estilos Menu Principal*/
@@ -85,7 +102,7 @@ align-items: center;
 
 /*Estilos Body*/
 body{
-    background-color: rgb(23, 1, 44);
+    background-color: rgb(241, 228, 253);
 }
 
 main {
@@ -95,6 +112,11 @@ main {
 img{
     max-width: 100%;
 }
+
+
+
+
+
 /*Marcadoras Cards*/
 
 .marcadoras img{
@@ -130,7 +152,7 @@ grid-template-columns: repeat(3,1fr);
     "marcadoras marcadoras marcadoras"
     "footer footer footer";
     grid-template-columns: repeat(3,1fr);
-    background-color: rgb(23, 1, 44);
+    background-color: rgb(225, 201, 248);
 }
 
 .menuNavegacion{
@@ -147,7 +169,7 @@ grid-template-columns: repeat(3,1fr);
 /*Contacto*/
 
 #contacto label{
-    color: aliceblue;
+    color: rgb(0, 0, 0);
     font-size: 1.7rem;
     margin: 1rem;
 }
@@ -159,13 +181,13 @@ grid-template-columns: repeat(3,1fr);
 
 .h1Contacto{
     font-size: 3rem;
-    color: aliceblue;
+    color: rgb(0, 0, 0);
     text-align: center;
     margin: 2rem;
 }
 
 .h2Contacto{
-    color: aliceblue;
+    color: rgb(0, 0, 0);
     font-size: 2rem;
     margin: 3rem 1rem;
 }
@@ -182,7 +204,7 @@ grid-template-columns: repeat(3,1fr);
 }
 
 legend{
-    color: aliceblue;
+    color: rgb(0, 0, 0);
     font-size: 2rem;
 }
 
@@ -192,4 +214,46 @@ legend{
     height: 100%;
 
     
+}
+
+
+/*GALERIA*/
+
+#galeriaImagen{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+justify-content: center;
+}
+
+#galeriaImagen img{
+    max-width: 100%;
+    width: 40rem;
+}
+
+#galeriaImagen img{
+    max-width: 100%;
+    width: 40rem;
+}
+
+.h1Galeria{
+    font-size: 3.5rem;
+    text-align: center;
+    margin: 2rem;
+}
+
+.h2Galeria{
+    font-size: 2rem;
+    text-align: center;
+    margin: 2rem;
+}
+.imagenHover{
+    height: 30rem;
+    transition: 2s;
+}
+
+.imagenHover:hover{
+    transform: scale(1.5);
+    max-width: 100%;
+
 }
