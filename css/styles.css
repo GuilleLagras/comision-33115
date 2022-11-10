@@ -119,9 +119,19 @@ img{
 
 /*Marcadoras Cards*/
 
+#productos h1{
+    margin: 2rem;
+    font-size: 3rem;
+}
+
 .marcadoras img{
     width: 40rem;
     height: 20rem;
+}
+
+.marcadoras p{
+    font-size: 2rem;
+    margin: 1rem;
 }
 
 .padreCards {
@@ -138,6 +148,15 @@ grid-template-columns: repeat(3,1fr);
     padding: 0.9rem;
 }
 
+.armasHover{
+    height: 30rem;
+    transition: 2s;
+}
+
+.armasHover:hover{
+    transform: scale(1.1);
+    max-width: 100%;
+}
 
 #productos h1 , 
 #productos h2 {
@@ -256,4 +275,49 @@ justify-content: center;
     transform: scale(1.5);
     max-width: 100%;
 
+}
+
+#galeriaVideos{
+    margin-top: 5rem;
+    display: flex;
+    flex-wrap: wrap;    
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#galeriaVideos iframe{
+     max-width: 40rem;
+     margin-top: 1rem;
+}
+
+.h1GaleriaVideos{
+    text-align: center;
+    font-size: 4rem;
+    margin: 2rem ;
+}
+
+
+/*FOOTER*/
+
+#footer{
+    background-color: rgba(69, 69, 69, 0.87);
+}
+.tituloFooter, .copy{
+color: #000;
+display: flex;
+justify-content: center;
+padding: 2rem;
+}
+
+.redesSociales{
+display: flex;
+justify-content: center;
+}
+
+.redesSociales i{
+    font-size: 2rem;
+    padding: 2rem;
+}
+.copy{
+    font-size: 1.5rem;
 }
