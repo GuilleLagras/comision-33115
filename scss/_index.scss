@@ -1,0 +1,47 @@
+/*Index*/
+
+p{
+    font-size:1.5rem;
+    color: rgb(0, 0, 0);
+}
+
+.quees{
+    font-size: 5rem;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.separacionTextoInicio{
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.separacionTextoInicio p,h3,ul{
+    margin-top: 2rem;
+    font-size: 1.5rem;
+}
+
+.imagenDEinicio{
+    display: block;
+    margin: 3rem auto;
+    height: 25rem;
+}
+
+#carouselExampleSlidesOnly{
+    width: 35rem;
+    margin: 2rem auto;
+    img {
+        max-width: 100%;
+
+    }
+}
+
+#carouselExampleControls{
+    width: 35rem;
+    margin: 2rem auto;
+    img {
+        width: 50rem;
+        height: 30rem;
+        max-width: 100%;
+    }
+}

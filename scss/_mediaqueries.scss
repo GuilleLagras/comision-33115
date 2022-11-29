@@ -1,0 +1,53 @@
+
+/*-------GRILLA-------*/
+
+.menuNavegacion{
+    grid-area: header;
+}
+#productos , #mainIndex , #galeriaResponsive{
+    grid-area: main;
+}
+#footer{
+    grid-area: footer;
+}
+
+
+/*------MEDIA QUERY-------*/
+
+@media screen and (max-width:1335px){
+    .padreCards , main {
+        width: 90%;
+        margin: 0;
+        grid-template-columns:repeat(2,1fr);
+        grid-template-areas:
+        "header header"
+        "main main"
+        "footer footer";
+    }
+    }
+    
+    
+    @media screen and (max-width:895px){
+        .padreCards , main {
+            width: 90%;
+            margin: 0;
+            grid-template-columns:1fr;
+            grid-template-areas:
+            "header"
+            "main"
+            "footer";
+        }
+        #footer{
+            @include flex-colum-center;
+            justify-content: center;
+        }
+        .card{
+            max-width: 100%;;
+        }
+        .menuNavegacion{
+            flex-direction: column;
+        }
+        #productos{
+        margin: 0rem auto;
+    }
+        }

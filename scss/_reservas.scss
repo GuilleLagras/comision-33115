@@ -1,0 +1,53 @@
+/*Contacto*/
+
+
+#contacto{
+@include flex-colum-center;
+    label {
+        color: rgb(0, 0, 0);
+        font-size: 1.7rem;
+        margin: 1rem ;
+    }
+}
+
+.h1Contacto{
+    font-size: 3rem;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 2rem;
+}
+
+.h2Contacto{
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+    margin: 3rem 1rem;
+}
+
+.botonesContacto{
+    padding: 2rem;
+    
+}
+.pago{
+    margin: 2rem;
+}
+
+.cuadrito{
+    @include flex-colum-center;
+    padding: 2rem;
+    gap: 2rem;
+    border-radius: 4rem;
+    border-color: red;
+    box-shadow: .5rem 1rem 2em  ;
+}
+
+legend{
+    color: rgb(0, 0, 0);
+    font-size: 2rem;
+}
+
+.botonEnviar{
+    @extend .botonFormulario
+}
+.botonLimpiar{
+    @extend .botonFormulario
+}

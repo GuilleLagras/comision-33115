@@ -1,0 +1,69 @@
+/*Estilos Menu Principal*/
+
+.menuNavegacion{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.imagenMenu{
+    max-width: 100%;
+    height: 10rem;
+    width: 10rem;
+    display: flex;
+    align-items: center;
+    margin-left: 2rem;
+}
+
+.listaProductos{
+    display: none;
+}
+
+.listaGeneral li{
+list-style: none;
+a {
+    color: aliceblue;
+    text-decoration: none;
+    padding: 1.2rem;
+    border-bottom: .4rem solid transparent;
+    transition: border .3s ease;
+}
+}
+
+nav .listaGeneral{
+    display: flex;
+flex-direction: row;
+justify-content: space-around;
+align-items: center;
+}
+
+#menu .listaGeneral .bordeBoton{
+    border-bottom-color: #e3414e;
+    ;
+}
+
+#menu .listaGeneral li a:hover{
+    border-bottom-color: #e3414e;
+}
+
+.botonIniciar{
+    padding: .9rem;
+    border: none;
+    background-color: #e3414e;
+    color: aliceblue;
+    margin: 3rem;
+    transition: all 2s;
+    border-radius: .5rem;
+    &:hover{
+        transform: scale(1.2);
+    }
+}
+
+.logoAnimacion  img{
+    transition: 2s;
+}
+
+.logoAnimacion img:hover{
+transform: scale(1.2);
+}
