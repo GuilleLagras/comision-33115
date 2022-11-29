@@ -46,8 +46,16 @@ legend{
 }
 
 .botonEnviar{
-    @extend .botonFormulario
+    @extend .botonFormulario;
+    cursor: pointer;
+    &:hover{
+        background-color: cornflowerblue
+    }
 }
 .botonLimpiar{
-    @extend .botonFormulario
+    @extend .botonFormulario;
+    cursor: pointer;
+    &:hover{
+        background-color: cornflowerblue
+    }
 }

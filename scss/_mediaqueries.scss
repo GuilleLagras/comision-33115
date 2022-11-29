@@ -27,10 +27,10 @@
     }
     
     
-    @media screen and (max-width:895px){
+    @media screen and (max-width:984px){
         .padreCards , main {
             width: 90%;
-            margin: 0;
+            margin: 0 auto;
             grid-template-columns:1fr;
             grid-template-areas:
             "header"

@@ -19,18 +19,21 @@
 display: grid;
 grid-template-columns: repeat(3,1fr);
 margin: 0 auto;
+border: solid .2rem rgb(0, 0, 0);
+border-radius: 5rem;
+padding: 1rem;
+box-shadow: .5rem .5rem 5rem -.5rem;
+background-color: rgb(179, 179, 179);
 }
 
 .marcadoras{
-    width: 40rem;
-    border: solid gray 0.2rem;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    padding: 0.9rem;
-}
-
-.armasHover{
+    @include flex-colum-center;
+    width: 35rem;
+    border:solid rgb(32, 32, 32) 0.2rem;
+    padding: 1rem;
+    margin: 2rem;
+    border-radius: 2rem;
+    background-color: beige;
     height: 30rem;
     transition: 2s;
     &:hover{
@@ -69,12 +72,39 @@ margin: 0 auto;
 
 .card-link button{
     padding: .5rem;
-    border: none;
-    background-color: rgba(28, 255, 7, 0.796);
+    border: solid .2rem gray;
+    border-radius: 1rem ;
+    background-color: rgba(141, 141, 141, 0.796);
     color: rgb(0, 0, 0);
     font-size: 1.5rem;
+    cursor: pointer;
+    transition: .5s;
+    &:hover {
+    background-color: rgb(133, 198, 255);
+    }
 }
 
 .card-title {
     font-size: 2rem;
+}
+
+.card{
+    border: solid .2rem gray;
+    border-radius: 2rem;
+    padding: 3rem;
+}
+
+.carrito{
+    padding: .5rem;
+    border: solid .2rem gray;
+    border-radius: 1rem ;
+    background-color: rgba(202, 202, 202, 0.796);
+    color: rgb(0, 0, 0);
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: .5s;
+    &:hover {
+    background-color: rgb(133, 198, 255);
+    opacity: 1;
+    }
 }
