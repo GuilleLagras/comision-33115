@@ -103,7 +103,8 @@ p {
     text-decoration: none;
     padding: 1.2rem;
     border-bottom: .4rem solid transparent;
-    transition: border .3s ease; }
+    transition: border .3s ease;
+    transition: 1s; }
 
 nav .listaGeneral {
   display: flex;
@@ -115,7 +116,9 @@ nav .listaGeneral {
   border-bottom-color: #e3414e; }
 
 #menu .listaGeneral li a:hover {
-  border-bottom-color: #e3414e; }
+  border-bottom-color: #e3414e;
+  background-color: #05163f;
+  border-radius: 3rem; }
 
 .botonIniciar {
   padding: .9rem;
@@ -126,7 +129,9 @@ nav .listaGeneral {
   transition: all 2s;
   border-radius: .5rem; }
   .botonIniciar:hover {
-    transform: scale(1.2); }
+    transform: scale(1.2);
+    background-color: #fcca16;
+    color: #000; }
 
 .logoAnimacion img {
   transition: 2s; }
@@ -272,12 +277,12 @@ legend {
 .botonEnviar {
   cursor: pointer; }
   .botonEnviar:hover {
-    background-color: cornflowerblue; }
+    background-color: #CE7D35; }
 
 .botonLimpiar {
   cursor: pointer; }
   .botonLimpiar:hover {
-    background-color: cornflowerblue; }
+    background-color: #CE7D35; }
 
 /*GALERIA*/
 #galeriaImagen {
@@ -368,12 +373,13 @@ legend {
     transform: scale(0.8); }
 
 .redesSociales :hover {
-  color: #CE7D35; }
+  color: #CE7D35;
+  cursor: pointer; }
 
 .logoFooter a {
   transition: 2s; }
   .logoFooter a:hover {
-    transform: scale(1.5); }
+    transform: scale(1.2); }
 
 .direccionFooter h2 {
   transition: 2s h2;

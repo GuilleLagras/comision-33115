@@ -28,6 +28,7 @@ a {
     padding: 1.2rem;
     border-bottom: .4rem solid transparent;
     transition: border .3s ease;
+    transition: 1s;
 }
 }
 
@@ -39,12 +40,15 @@ align-items: center;
 }
 
 #menu .listaGeneral .bordeBoton{
-    border-bottom-color: #e3414e;
+    border-bottom-color: #e3414e
     ;
 }
 
 #menu .listaGeneral li a:hover{
     border-bottom-color: #e3414e;
+    background-color: rgb(5, 22, 63);
+    border-radius: 3rem;
+    
 }
 
 .botonIniciar{
@@ -57,6 +61,8 @@ align-items: center;
     border-radius: .5rem;
     &:hover{
         transform: scale(1.2);
+        background-color: #fcca16;
+        color: #000;
     }
 }
 
