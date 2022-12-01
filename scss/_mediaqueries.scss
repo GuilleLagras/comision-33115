@@ -44,8 +44,11 @@
         .card{
             max-width: 100%;;
         }
-        .menuNavegacion{
+        .menuNavegacion,
+        #menu ul {
+            display: flex;
             flex-direction: column;
+            text-align: center;
         }
         #productos{
         margin: 0rem auto;

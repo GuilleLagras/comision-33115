@@ -165,23 +165,16 @@ nav .listaGeneral {
   display: flex;
   flex-direction: column;
   align-items: center;
-  width: 35rem;
   border: solid #202020 0.2rem;
   padding: 1rem;
   margin: 2rem;
   border-radius: 2rem;
-  background-color: beige;
-  height: 30rem;
-  transition: 2s; }
-  .marcadoras:hover {
-    transform: scale(1.1);
-    max-width: 100%; }
-    .marcadoras:hover img {
-      width: 40rem;
-      height: 20rem; }
+  background-color: beige; }
   .marcadoras p {
     font-size: 2rem;
     margin: 1rem; }
+  .marcadoras img {
+    max-width: 100%; }
 
 #paginasVentas {
   display: flex;
@@ -417,7 +410,10 @@ legend {
     justify-content: center; }
   .card {
     max-width: 100%; }
-  .menuNavegacion {
-    flex-direction: column; }
+  .menuNavegacion,
+  #menu ul {
+    display: flex;
+    flex-direction: column;
+    text-align: center; }
   #productos {
     margin: 0rem auto; } }

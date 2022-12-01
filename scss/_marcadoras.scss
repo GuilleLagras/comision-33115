@@ -23,25 +23,17 @@ background-color: rgb(179, 179, 179);
 
 .marcadoras{
     @include flex-colum-center;
-    width: 35rem;
     border:solid rgb(32, 32, 32) 0.2rem;
     padding: 1rem;
     margin: 2rem;
     border-radius: 2rem;
     background-color: beige;
-    height: 30rem;
-    transition: 2s;
-    &:hover{
-        transform: scale(1.1);
-        max-width: 100%;
-        img{
-        width: 40rem;
-        height: 20rem;
-        }
-    }
         p{
         font-size: 2rem;
         margin: 1rem;
+    }
+    img{
+        max-width: 100%;
     }
 }
 
