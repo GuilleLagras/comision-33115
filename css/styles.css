@@ -59,13 +59,15 @@ p {
 
 #carouselExampleSlidesOnly {
   width: 35rem;
-  margin: 2rem auto; }
+  margin: 2rem auto;
+  max-width: 100%; }
   #carouselExampleSlidesOnly img {
     max-width: 100%; }
 
 #carouselExampleControls {
   width: 35rem;
-  margin: 2rem auto; }
+  margin: 2rem auto;
+  max-width: 100%; }
   #carouselExampleControls img {
     width: 50rem;
     height: 30rem;
@@ -104,7 +106,8 @@ p {
     padding: 1.2rem;
     border-bottom: .4rem solid transparent;
     transition: border .3s ease;
-    transition: 1s; }
+    transition: 1s;
+    align-items: center; }
 
 nav .listaGeneral {
   display: flex;
@@ -144,13 +147,9 @@ nav .listaGeneral {
   margin: 2rem;
   font-size: 3rem; }
 
-.marcadoras img {
-  width: 40rem;
-  height: 20rem; }
-
-.marcadoras p {
-  font-size: 2rem;
-  margin: 1rem; }
+#productos h1,
+#productos h2 {
+  text-align: center; }
 
 .padreCards {
   display: grid;
@@ -177,10 +176,12 @@ nav .listaGeneral {
   .marcadoras:hover {
     transform: scale(1.1);
     max-width: 100%; }
-
-#productos h1,
-#productos h2 {
-  text-align: center; }
+    .marcadoras:hover img {
+      width: 40rem;
+      height: 20rem; }
+  .marcadoras p {
+    font-size: 2rem;
+    margin: 1rem; }
 
 #paginasVentas {
   display: flex;
