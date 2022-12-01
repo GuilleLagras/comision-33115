@@ -42,7 +42,9 @@ p {
 .quees {
   font-size: 5rem;
   color: black;
-  text-align: center; }
+  text-align: center;
+  background-color: rgba(248, 248, 248, 0.699);
+  border-radius: 3rem; }
 
 .separacionTextoInicio {
   margin-top: 2rem;
@@ -201,7 +203,8 @@ nav .listaGeneral {
   cursor: pointer;
   transition: .5s; }
   .card-link button:hover {
-    background-color: #85c6ff; }
+    background-color: #fcca16;
+    transform: scale(1.1); }
 
 .card-title {
   font-size: 2rem; }
@@ -221,7 +224,8 @@ nav .listaGeneral {
   cursor: pointer;
   transition: .5s; }
   .carrito:hover {
-    background-color: #85c6ff;
+    background-color: #fcca16;
+    transform: scale(1.1);
     opacity: 1; }
 
 /*Contacto*/
@@ -303,7 +307,8 @@ legend {
   transition: 2s; }
   .imagenHover:hover {
     transform: scale(1.2);
-    max-width: 100%; }
+    max-width: 100%;
+    cursor: pointer; }
 
 #galeriaVideos {
   margin-top: 5rem;

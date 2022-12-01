@@ -69,7 +69,8 @@ background-color: rgb(179, 179, 179);
     cursor: pointer;
     transition: .5s;
     &:hover {
-    background-color: rgb(133, 198, 255);
+    background-color: #fcca16;
+    transform: scale(1.1);
     }
 }
 
@@ -93,7 +94,8 @@ background-color: rgb(179, 179, 179);
     cursor: pointer;
     transition: .5s;
     &:hover {
-    background-color: rgb(133, 198, 255);
+    background-color: #fcca16;
+    transform: scale(1.1);
     opacity: 1;
     }
 }
