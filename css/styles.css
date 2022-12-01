@@ -115,9 +115,6 @@ nav .listaGeneral {
   justify-content: space-around;
   align-items: center; }
 
-#menu .listaGeneral .bordeBoton {
-  border-bottom-color: #e3414e; }
-
 #menu .listaGeneral li a:hover {
   border-bottom-color: #e3414e;
   background-color: #05163f;
@@ -415,5 +412,7 @@ legend {
     display: flex;
     flex-direction: column;
     text-align: center; }
+  .listaGeneral li {
+    margin-top: 1.5rem; }
   #productos {
     margin: 0rem auto; } }
