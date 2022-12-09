@@ -4,7 +4,8 @@
   box-sizing: border-box; }
 
 html {
-  font-size: 62.5%; }
+  font-size: 62.5%;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; }
 
 /*Estilos Generales*/
 header {
@@ -168,7 +169,11 @@ nav .listaGeneral {
   padding: 1rem;
   margin: 2rem;
   border-radius: 2rem;
-  background-color: beige; }
+  background-color: beige;
+  transition: 2s; }
+  .marcadoras:hover {
+    transform: scale(1.1);
+    border: solid .5rem #fcca16; }
   .marcadoras p {
     font-size: 2rem;
     margin: 1rem; }

@@ -28,6 +28,11 @@ background-color: rgb(179, 179, 179);
     margin: 2rem;
     border-radius: 2rem;
     background-color: beige;
+    transition: 2s;
+    &:hover{
+        transform:scale(1.1);
+        border: solid .5rem #fcca16;
+    }
         p{
         font-size: 2rem;
         margin: 1rem;
